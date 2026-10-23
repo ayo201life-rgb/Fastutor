@@ -1,0 +1,80 @@
+Good! Let's put the FASTutor homepage code into GitHub.
+STEP 1: Copy this complete code
+Copy everything in the box below and paste it into the large code editor on your GitHub page.
+Writing
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FASTutor | Learn Smarter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 15px;
+      background: #f5f7fa;
+      color: #222;
+    }
+    h1 { text-align: center; color: #1d4ed8; }
+    .search { display: flex; gap: 10px; margin-bottom: 20px; }
+    input[type=text] {
+      flex: 1;
+      min-width: 0;
+      padding: 12px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      padding: 12px 20px;
+      font-size: 16px;
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:disabled { background: #94a3b8; }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    iframe { width: 100%; height: 400px; border: none; border-radius: 6px; }
+    .question { margin-bottom: 20px; }
+    .option { display: block; margin: 6px 0; padding: 8px; border-radius: 4px; }
+    .correct { background: #bbf7d0; }
+    .wrong { background: #fecaca; }
+    .status { text-align: center; color: #555; margin: 12px 0; }
+    @media (max-width: 480px) {
+      .search { flex-direction: column; }
+      iframe { height: 240px; }
+    }
+  </style>
+</head>
+<body>
+  <h1>FASTutor</h1>
+  <p style="text-align:center">Your AI-powered learning companion for Nigerian secondary-school students.</p>
+  <div class="search">
+    <input type="text" id="topic" placeholder="Enter a topic, e.g. Photosynthesis">
+    <button id="go">Find Lesson</button>
+  </div>
+  <div id="status" class="status"></div>
+  <div id="result"></div>
+  <script src="app.js"></script>
+</body>
+</html>
+STEP 2: Save the file
+After pasting the code:
+Scroll down the GitHub page.
+Find Commit changes.
+Tap it.
+If GitHub asks for confirmation, tap Commit changes again.
+This saves your homepage in the FASTutor repository.
+Important: This creates only the homepage. We still need to add app.js and the two Netlify function files before the app can generate lessons.
+Tell me when you have saved index.html.
+Reply SAVED, and we'll create the next file.
